@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords"
+        content="cotillon, dulce y salado, reposteria, carnaval,artículos de cotillón, carnaval carioca, repostería, golosinas, descartables, manualidades, artículos de Hogar-Bazar">
+    <meta name="description"
+        content="Somos una organización mayorista dedicada a la venta de artículos de cotillón, carnaval carioca, repostería, golosinas, descartables, manualidades y artículos de Hogar-Bazar">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../imagenes/logo.jpeg" type="image/x-icon">
+    <title>Dulce y salado</title>
+</head>
+    <!-- header-->
+    <header class="sticky-lg-top">
+        <nav class="header__nav">
+            <a href="../index.html">
+                <img class="header__logo" src="../imagenes/logo.jpeg" alt="imagen-logo">
+            </a>
+            <ul class="header__lista">
+                <li class="header__item"><a href="../index.html">Inicio</a></li>
+                <li class="header__item"><a href="../paginas/reposteria.html">reposteria</a></li>
+                <li class="header__item"><a href="../paginas/cotillon.html">cotillon</a></li>
+                <li class="header__item"><a href="../paginas/contacto.html">contacto</a></li>
+                <li class="header__item"><a href="../paginas/sobre nosotros.html">sobre nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- header-->
+    <!-- main: contenido principal -->
+    <main>        
+        <h1>COTILLÓN <br> "DULCE Y SALADO"</h1>
+        <h2>(Ventas Mayoristas)</h2>
+        <p class= "titlee hide" id="bienvenida">bienvenido</p>
+        <section class="container-lg carrusel">
+            <div id="carouselExampleControls" class="carousel slide" style="width: auto;" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../imagenes/globos.jpg" class="d-block w-100" alt="imagen-globos-carrusel">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../imagenes/reposteria.jpg" class="d-block w-100" alt="imagen-reposteria-carrusel">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../imagenes/felizcumple.jpg" class="d-block w-100" alt="imagen-cupcake-carrusel">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- FORMULARIO DE INICIO DE SECION -->
+        <h2>Inicia Sesión</h2>
+        <section class="mx-5 mb-5">
+            <form>
+                <div class="mb-3">
+                    <label type="text" for="usuarioReg">Usuario</label>
+                    <input type="text" class="form-control" id="usuarioReg">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="contraseniaReg">Contraseña</label>
+                    <input type="password" class="form-control" id="contraseniaReg">
+                </div>
+                <div class="mb-3 form-check">
+                    <div id="avisoIS"></div>
+                    <button type="button" class="btn btn-info" id="ingresar">enviar</button>
+                    <br><br>
+                    
+                    <strong>
+                        <label class="form-check-label" for="exampleCheck1">¿No tienes cuenta?
+                            <a href="/paginas/registro.html" target="_blank">Registrate aquí</a></label></strong>
+                </div>
+            </form>
+        </section>
+    </main>
+    <!-- main: contenido principal -->
+    <!-- footer: pie de pagina -->
+    <footer>
+        <section class="footer__gmail">
+            <div class="footer__gmail-1">
+                <div class="footer__parrafo">
+                    <p class="parrafo">SUSCRIBITE AL NEWSLETTER</p>
+                </div>
+                <div class="input-group flex-nowrap">
+                    <span class="input-group-text" id="addon-wrapping">@</span>
+                    <input type="text" class="form-control" placeholder="perez@gmail.com" aria-label="Username"
+                        aria-describedby="addon-wrapping">
+                </div>
+                <button type="button" class="btn btn-info">enviar</button>
+            </div>
+        </section>
+        <section class="footer__redes">
+            <a href="https://www.instagram.com/_dulceysalado1/" target="_blank">
+                <img class="footer__iconos" src="../imagenes//instagram-brands.svg" alt="logo-instagram">
+            </a>
+            <a href="https://www.youtube.com/" target="_blank">
+                <img class="footer__iconos whatsapp" src="../imagenes//youtube-brands.svg" alt="logo-youtube">
+            </a>
+            <a href="https://www.facebook.com/masoquaglia/" target="_blank">
+                <img class="footer__iconos whatsapp" src="../imagenes/facebook.png" alt="logo-youtube">
+            </a>
+        </section>
+        <section class="footer__derechos">
+            <span>Todos los derechos reservados desde 2022</span>
+        </section>
+    </footer>
+    <!-- footer: pie de pagina -->
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
+    </script>
+     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/login.js" type="module"></script>
+    
+    
+    
+</body>
+
+</html>

@@ -1,0 +1,380 @@
+/* @media (min-width: 320px) and (max-width: 575px)*/
+
+@media (min-width: 320px) and (max-width: 575px) {
+
+    /* header */
+    header {
+        background-color: white;
+        margin: 10px;
+        border-bottom: 1px solid black;
+        flex-direction: row;
+        height: auto;
+        .header__nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            a{
+                grid-column: 1/2;
+                grid-row: 1/2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .header__logo {
+                width: 120px;
+                height: 120px;
+                &:hover{
+                    transform: scale(1.1, 1.1);
+                    transition: all 0.5s;
+                }       
+            }
+            .header__lista {
+               grid-column: 2/3;
+               grid-row: 1/2;
+               display: flex;
+               flex-direction: column;
+               justify-items: center;
+               align-items: center;
+               
+                .header__item {
+                        padding: 10px; 
+                        & a {
+                        color: rgba(255, 204, 0, 0.717);
+                        text-decoration: none;
+                        font-weight: 600;
+                        text-align: center;
+                        
+                        }
+                        &:hover{
+                        transform: scale(1.5, 1.5);
+                        transition: all 0.5s;
+                        }
+                    }
+                }
+         }
+    }
+    /* header */
+
+    /* main_index */
+main section form{
+    padding-inline: 2px;
+    }
+
+/* main_index */
+
+ /* main_contacto */
+.main__contacto {
+     display: block;
+ }
+
+ .main__contacto-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main__parrafo-2 {
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+     align-items: center;
+     margin-top: 5px;
+ }
+ 
+ .main__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .main__form-imput{
+        border: 1px solid black;
+        width: 250px;
+        }
+        
+   
+    }
+    
+   
+
+    /* main_contacto */
+
+    /* sobrenosotros_main */
+    .main__sobrenosotros{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        flex-wrap: wrap;
+        margin-top: 40px;
+        margin-bottom: 40px;
+            .sobrenosotros{
+                grid-column: auto;
+                grid-row: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: justify;
+                border: 3px solid black;
+                border-radius: 10px;
+                box-shadow: 5px 15px 20px;
+                    &__titulo{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding-bottom: 15px;
+                    }
+                    span{
+                    margin: 10px;
+                    }
+                
+            }
+            .main__video{
+                grid-column: auto;
+                grid-row: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+                    iframe {
+                
+                        width: 300px;
+                        height: 300px;
+                    }
+                
+            }
+        }
+        
+        
+        
+        
+
+    /* sobrenosotros_main */
+
+    /* footer */
+
+    footer {
+        display: grid;
+        grid-template-areas: "gmail"
+            "redes"
+            "derechos";
+        background-color: rgba(255, 166, 0, 0.476);
+        padding: 24px;
+        .footer__gmail {
+            grid-area: gmail;
+            
+        }
+    
+        .footer__redes {
+            grid-area: redes;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .footer__derechos {
+            grid-area: derechos;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .footer__iconos {
+            width: 70px;
+            height: 70px;
+            margin: 12px;
+        }
+        .footer__parrafo {
+            width: auto;
+            font-weight: 600;
+            font-size: larger;
+        }
+        .parrafo {
+            display: inline;
+            border: 3px dashed black;
+            border-width: auto;
+            font-size: 15px;
+        }
+    }
+    /* footer */
+}
+
+
+
+
+
+
+/* @media (min-width: 576px) and (max-width: 992)*/
+
+@media (min-width: 576px) and (max-width: 992px) {
+
+    /* header */
+    header {
+        background-color: white;
+        margin: 10px;
+        border-bottom: 1px solid black;
+        flex-direction: row;
+        height: auto;
+        .header__nav {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr;
+            a{
+                grid-column: 1/2;
+                grid-row: 1/2;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .header__logo {
+                width: 200px;
+                height: 200px;
+                &:hover{
+                    transform: scale(1.1, 1.1);
+                    transition: all 0.5s;
+                }       
+            }
+            .header__lista {
+               grid-column: 2/3;
+               grid-row: 1/2;
+               display: flex;
+               flex-direction: column;
+               justify-items: center;
+               align-items: center;
+                .header__item {
+                        padding: 10px; 
+                        & a {
+                        color: rgba(255, 204, 0, 0.717);
+                        text-decoration: none;
+                        font-weight: 700;
+                        text-align: center;
+                        }
+                        &:hover{
+                        transform: scale(1.5, 1.5);
+                        transition: all 0.5s;
+                        }
+                    }
+                }
+         }
+    }
+    /* header */
+
+/* main_index */
+main section form{
+    padding-inline: 60px;
+    }
+
+/* main_index */
+
+
+    /* main_contacto */
+    .main__contacto {
+        display: block;
+    }
+
+    .main__contacto-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .main__parrafo-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+    }
+
+    /* main_contacto */
+
+    /* sobrenosotros_main */
+    .main__sobrenosotros{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        flex-wrap: wrap;
+        margin: 10px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+            .sobrenosotros{
+                grid-column: auto;
+                grid-row: auto;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                text-align: justify;
+                border: 3px solid black;
+                border-radius: 10px;
+                box-shadow: 5px 15px 20px;
+                    &__titulo{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        padding-bottom: 15px;
+                    }
+                    span{
+                    margin: 10px;
+                    }
+                
+            }
+            .main__video{
+                grid-column: auto;
+                grid-row: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 20px;
+                
+            }
+        }
+    /* sobrenosotros_main */
+
+    /* footer */
+    footer {
+        display: grid;
+        grid-template-areas: "gmail"
+            "redes"
+            "derechos";
+        background-color: rgba(255, 166, 0, 0.476);
+        padding: 24px;
+        .footer__gmail {
+            grid-area: gmail;
+            .footer__gmail-1{
+                margin-inline: 100px;
+            }
+        }
+        .footer__redes {
+            grid-area: redes;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .footer__derechos {
+            grid-area: derechos;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .footer__iconos {
+            width: 70px;
+            height: 70px;
+            margin: 12px;
+        }
+        .footer__parrafo {
+            width: auto;
+            font-weight: 600;
+            font-size: larger;
+        }
+        .parrafo {
+            display: inline;
+            border: 3px dashed black;
+            border-width: auto;
+            font-size: 15px;
+        }
+    }
+    /* footer */
+}

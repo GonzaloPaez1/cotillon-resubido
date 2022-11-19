@@ -1,0 +1,50 @@
+[
+    {
+       "id":1,
+       "nombre":"caja multiuso 1",
+       "precio":100,
+       "img":"../imagenes/caja1.jpg"
+    },
+    {
+       "id":2,
+       "nombre":"caja multiuso 2",
+       "precio":150,
+       "img":"../imagenes/caja2.jpg"
+    },
+    {
+       "id":3,
+       "nombre":"caja multiuso 3",
+       "precio":200,
+       "img":"../imagenes/caja3.jpg"
+    },
+    {
+       "id":4,
+       "nombre":"caja multiuso 4",
+       "precio":250,
+       "img":"../imagenes/caja4.jpg"
+    },
+    {
+       "id":5,
+       "nombre":"caja multiuso 5",
+       "precio":300,
+       "img":"../imagenes/caja5.jpg"
+    },
+    {
+       "id":6,
+       "nombre":"caja multiuso 6",
+       "precio":350,
+       "img":"../imagenes/caja6.jpg"
+    },
+    {
+       "id":7,
+       "nombre":"caja multiuso 7",
+       "precio":400,
+       "img":"../imagenes/caja7.jpg"
+    },
+    {
+       "id":8,
+       "nombre":"caja multiuso 8",
+       "precio":450,
+       "img":"../imagenes/caja8.jpg"
+    }
+ ]

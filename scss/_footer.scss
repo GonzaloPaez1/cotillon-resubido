@@ -1,0 +1,45 @@
+/* footer */
+
+footer {
+    display: grid;
+    grid-template-areas: "gmail   redes "
+                         "gmail   derechos";
+    background-color:rgba(255, 166, 0, 0.476);
+    padding: 60px;
+    .footer__gmail {
+        grid-area: gmail;
+    }
+    
+    .footer__redes {
+        grid-area: redes; 
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer__derechos {
+        grid-area: derechos;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       font-weight: bold;
+    }
+    
+    .footer__iconos {
+        width: 70px;
+        height: 70px;
+        margin: 12px;
+    }
+    
+    .footer__parrafo{
+        width: auto;
+        font-weight: 600;
+        font-size: larger;
+    }
+    
+    .parrafo{
+        display: inline;
+        border: 3px dashed black;
+        border-width: auto;
+    }
+}
+

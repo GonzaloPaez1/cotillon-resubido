@@ -1,0 +1,16 @@
+.card-img-top{
+@extend .background-centrado;
+}
+
+.card-subtitle{
+color: gray;
+}
+.cotillon{
+margin-top: 40px;
+}
+.main__ayuda{
+display: flex;
+justify-content: center;
+padding-bottom: 4px;
+font-weight: 550;
+}

@@ -1,0 +1,132 @@
+*{
+    margin: 0px; /* MARGEN EXTERNO */
+    padding: 0px; /* MARGEN INTERNO */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h1 {
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    color: #049efc;
+}
+
+p {
+    padding: 0 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+/* header */
+
+header {
+    background-color: rgba(255, 255, 255, 0.376);
+    height: 70px;
+}
+
+.header__logo {
+    width: 60px;
+    height: 60px;
+}
+
+.header__lista {
+    display: flex; 
+    list-style: none; 
+    padding: 0 16px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+.header__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+ }
+ 
+.header__item {
+    padding: 20px; 
+}
+
+.header__item a {
+    color: rgba(255, 204, 0, 0.717);
+    text-decoration: none;
+    font-weight: 700;
+    
+}
+
+a:visited{ 
+    background-color: rgb(255, 0, 0);
+}
+
+.header__item:hover{
+    transform: scale(1.5, 1.5);
+    transition: all 0.5s;
+}
+
+/* footer */
+
+footer {
+    display: grid;
+    grid-template-areas: "gmail gmail   redes "
+                         "gmail gmail   derechos";
+    background-color: #049efc;
+    padding: 24px;
+}
+
+.footer__gmail {
+    grid-area: gmail;
+}
+
+.footer__redes {
+    grid-area: redes; 
+    display: flex;
+    justify-content: center;
+}
+
+.footer__derechos {
+    grid-area: derechos;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__iconos {
+    width: 70px;
+    height: 70px;
+    margin: 12px;
+}
+
+.footer__parrafo{
+    width: auto;
+    font-weight: 600;
+    font-size: larger;
+}
+
+.parrafo{
+    display: inline;
+    border: 3px dashed black;
+    border-width: auto;
+}
+
+
+
+
+
+
+/* selector de tipo ID # */
+
+
+/* nomenclatura */
+/* 1- camelCase => letraGrandeOscura */
+/* 2- snake_case => letra_grande_oscura */
+/* 3- kebab-case => letra-grande-oscura */
